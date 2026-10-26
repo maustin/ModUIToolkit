@@ -1,5 +1,7 @@
 # ModUIToolkit
 
+<img width="807" height="387" alt="toolkit-ui-1" src="https://github.com/user-attachments/assets/406127e1-241e-4552-af2a-9a850cb3acb9" />
+
 Add Parkitect-style UI to your own mods!
 ModUIToolkit provides popup windows, controls like buttons and checkboxes, tabs, lists, tooltips, and more.
 
@@ -27,6 +29,8 @@ Start with an existing Parkitect mod project. This library uses C# 10 and .NET F
 5. In your mod's `onDisabled`, call `ThemedWindow.CloseAll<MinimalWindow>()`. Do this for each window type your mod opens.
 
 ## Basic use
+
+<img width="313" height="269" alt="toolkit-ui-2" src="https://github.com/user-attachments/assets/2e209300-be14-4548-b287-4ef5917e6caa" />
 
 A window inherits from `ThemedWindow`. Add controls in `buildContent`. The toolkit supplies the panel, layout, and frame. For example, these lines from the minimal window add a slider, a dropdown, and a color swatch:
 

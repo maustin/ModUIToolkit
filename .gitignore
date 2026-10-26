@@ -1,0 +1,22 @@
+## Visual Studio / MSBuild output
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.pdb
+*.log
+*.tmp
+*.cache
+_ReSharper*/
+*.DotSettings.user
+.editorconfig
+
+## Vendored game / engine DLLs: copy them in from your Parkitect install, see README.md
+Libs/
+
+## OS detritus
+Thumbs.db
+Desktop.ini
+.DS_Store
